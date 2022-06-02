@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Survey</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts2.js"></script>
+</head>
+<body>
+  <h1>Survey</h1>
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <label for="age">Age</label>
+          <input id="age" type="text">
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+      </div>
+    </form> 
+      <form>
+        <div>
+        <form id="name">
+          <label for="flavor">What is your favorite Ice Cream</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="1">
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="3" checked>
+                Chocolate
+                  </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="2">
+              Mint Chocolate Chip
+            </label>
+          </div>
+
+      </form>
+          <select class="form-control" id="food">
+          <label for="food">Favorite Food</label>
+              <option value="1">Steak</option>
+              <option value="3">Pizza</option>
+              <option value="2">Pasta</option>
+              
+            </select>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>  
+
+
+        </div>
+      <div id="output">
+        <div id="message1">
+          <p>you r liberal</p>
+        </div>
+        <div id="message2">
+          <p>you are middle</p>
+        </div>
+        <div id="message3">
+          <p>u r republican</p>
+        </div>
+      </div>
+</body>
+</html>
